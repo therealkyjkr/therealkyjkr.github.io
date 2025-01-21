@@ -1,6 +1,6 @@
 ---
 
-layout: category
+layout: page
 title: 일상
 permalink: /personal/
 ---
