@@ -5,14 +5,14 @@ title: 일상
 permalink: /personal/
 ---
 
-<h1>{{ page.title }}</h1>
-
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
-    {% if post.category == "personal" %}
+    {% if post.category == "안녕" %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
       </li>
     {% endif %}
   {% endfor %}
