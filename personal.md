@@ -7,7 +7,7 @@ permalink: /personal/
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if post.category == "안녕" %}
+    {% if post.category == "personal" %}
       <li>
         <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
         <h3>
