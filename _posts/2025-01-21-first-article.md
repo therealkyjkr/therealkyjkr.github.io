@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "테스트"
-category: study
+category: personal
 ---
 
 안녕 지금은 테스트중이다 
