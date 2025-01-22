@@ -13,7 +13,7 @@ category: education
 아무튼간에 토플 공식 응시료는 무려 220USD다.. 처음 알아본 때만 해도 200이었는데 언제 또 올랐다.
 하지만 정가만 올랐겠는가? 문제는 환율이다.
 
-![toeflfee.jpg](/assets/img/toeflfee.jpg){: width="50%" height="50%"}
+![toeflfee.jpg](/assets/img/toeflfee.jpg){: width="60%" height="60%"}
 
 날 비참하게 만드는 화면.  
 이것으로 계좌에서는 322634원이 빠져나갔다고 한다.
