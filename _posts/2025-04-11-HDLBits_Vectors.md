@@ -168,6 +168,7 @@ endmodule
 
 ## ✅ Replication operator
 
+{% raw %}
 ```verilog
 module top_module (
     input [7:0] in,
@@ -176,6 +177,7 @@ module top_module (
     assign out = {{24{in[7]}}, in[7:0]};
 endmodule
 ```
+{% endraw %}
 
 📌 **포인트**  
 - `{N{X}}` 문법은 X를 N번 반복하는 replication operator  
@@ -186,6 +188,7 @@ endmodule
 
 ## ✅ More replication
 
+{% raw %}
 ```verilog
 module top_module (
     input a, b, c, d, e,
@@ -198,6 +201,7 @@ module top_module (
     assign out = ~(top ^ bottom);
 endmodule
 ```
+{% endraw %}
 
 📌 **포인트**  
 - 중첩된 replication 사용  
